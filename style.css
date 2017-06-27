@@ -18,6 +18,15 @@ body {
 #heading-text.container {
 	text-align: center;
   	position: relative;
-  	color: #ffffff;
+  	color: #ccc;
   	z-index: 2; /* Show content above video */
+}
+
+
+
+
+
+[role=button] {
+  background: #000000;
+  color: #f1c40f;
 }
