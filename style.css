@@ -2,6 +2,52 @@ body {
  	padding-top: 70px;
   }
 
+
+.navbar,.navbar-default,.navbar-fixed-top{
+  background-color: rgba(255,255,255,.75);
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 0;
+  border: none;
+}
+
+.navbar,.navbar-default,.navbar-fixed-top  div{
+  background-color: #000000;
+}
+
+ .navbar {
+  min-height: 30px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 30px;
+  line-height: 25px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 5px;
+  padding: 3px 0px 0px 0px !important;
+}
+
+.navbar-default .navbar-toggle {
+  background-color: none;
+  border: none;
+}
+
+@media (min-width: 768px) { 
+  .navbar-nav > li > a{
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+    line-height: 25px;
+  }
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #ccc;
+}
   #video-background{ 
 	position: absolute;
   	height: auto;
@@ -18,6 +64,37 @@ body {
 #heading-text.container {
 	text-align: center;
   	position: relative;
-  	color: #ffffff;
+  	color: #ccc;
   	z-index: 2; /* Show content above video */
+}
+
+
+
+[role=button] {
+  background: #000000;
+  color: #f1c40f;
+}
+
+.thumbnail {
+  display: block;
+  float: inherit;
+  border-style: solid;
+  border-color: #f1c40f;
+  text-align: center;
+  background-color: #000000;
+  margin: 20%;
+  margin-top: 65%;
+ 
+}
+
+.thumbnail > img {
+
+  height: 150px;
+  width: 300px;
+}
+
+.row {
+
+  position: relative;
+  z-index: 2;
 }
