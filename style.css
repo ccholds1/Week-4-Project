@@ -1,6 +1,74 @@
 body {
- 	padding-top: 70px;
+ 	padding-top: 10.5px;
   }
+
+/*Background images*/
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("images/houseofblues.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.bgsc {
+  /* The image used */
+    background-image: url("images/spottedcat.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgm {
+   /* The image used */
+    background-image: url("images/maison.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgbn {
+  /* The image used */
+    background-image: url("images/bluenile.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+/*NAVBAR*/
 
 
 .navbar,.navbar-default,.navbar-fixed-top{
@@ -68,12 +136,26 @@ body {
   	z-index: 2; /* Show content above video */
 }
 
-
-
 [role=button] {
   background: #000000;
   color: #f1c40f;
 }
+
+/*HEADING*/
+
+#hob {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #ccc; 
+  background-size: 100%;
+  background-color: #000000;
+  padding-bottom: 10px;
+}
+
+
+/*THUMBNAILS*/
+
 
 .thumbnail {
   display: block;
@@ -98,3 +180,5 @@ body {
   position: relative;
   z-index: 2;
 }
+
+/*WYSIWYG*/
