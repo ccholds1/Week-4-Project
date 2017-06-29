@@ -1,14 +1,35 @@
 body {
  	padding-top: 10.5px;
   }
+body,html{
+  height: 100%;
+
+}
+}
+/*Paragroup text*/
+.ptip{
+  text-align: center;
+  position: relative;
+
+  
+}
+.pjoy{
+  text-align: center;
+  position: relative;
+  
+}
+.phall{
+  text-align: center;
+  position: relative;
+  
+}
+.pjack{
+  text-align: center;
+  position: relative;
+  
+}
 
 /*Background images*/
-
-
-body, html {
-    height: 100%;
-    margin: 0;
-}
 
 .bg {
     /* The image used */
@@ -56,6 +77,63 @@ body, html {
 .bgbn {
   /* The image used */
     background-image: url("images/bluenile.jpg");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgtt{
+  /* The image used */
+    background-image: url("images/tip.png");
+    
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.bgjt {
+  /* The image used */
+    background-image: url("images/joy.png");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+      
+}
+
+.bgoej {
+  /* The image used */
+    background-image: url("images/one.png");
+    
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bgph {
+  /* The image used */
+    background-image: url("images/pres.png");
     
 
     /* Full height */
